@@ -1,6 +1,7 @@
 body {
-    font-family: "Roboto", "Raleway", "Montserrat" sans-serif;
-color: #2e2f42;
+    font-family: "Roboto", "Raleway", "Montserrat", sans-serif;
+color: #434455;
+background-color: #fff;
 }
 
 .header-logo {
@@ -9,7 +10,7 @@ color: #2e2f42;
         font-size: 18px;
     
         /* line-height: 21px; */
-        line-height: 1.16;
+        line-height: 1.17;
         letter-spacing: 0.03em;
         text-transform: uppercase;
         color: #2E2F42;
@@ -19,7 +20,7 @@ color: #2e2f42;
     color: #4D5AE5;
 }
 
-.menu-nav {
+.menu-nav a {
     font-weight: 500;
         font-size: 16px;
     
@@ -29,7 +30,8 @@ color: #2e2f42;
         color: #2E2F42;
 }
 
-.menu-nav a:hover {
+.menu-nav a:hover,
+.menu-nav a:focus {
     color: #404bbf;
 }
 
@@ -58,7 +60,7 @@ h1 {
         font-size: 56px;
     
         /* line-height: 60px; */
-        line-height: 1.08;
+        line-height: 1.07;
         letter-spacing: 0.02em;
         text-align: center;
         color: #fff;
@@ -70,11 +72,6 @@ h1 {
 }
 
 .header-btn {
-    display: flex;
-        align-items: flex-start;
-        justify-content: flex-start;
-        flex-direction: row;
-        gap: 10px;
     font-weight: 500;
         font-size: 16px;
         cursor: pointer;
@@ -88,8 +85,10 @@ h1 {
         box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
 }
 
-.header-btn:hover {
-color: #404bbf;
+.header-btn:hover,
+.header-btn:focus {
+color: #fff;
+background-color: #404bbf;
 }
 
 
@@ -186,7 +185,7 @@ font-weight: 500;
         font-size: 18px;
     
         /* line-height: 21px; */
-        line-height: 1.16;
+        line-height: 1.17;
         letter-spacing: 0.03em;
         text-transform: uppercase;
         color: #f4f4fd;
