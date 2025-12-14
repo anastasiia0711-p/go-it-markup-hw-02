@@ -1,5 +1,5 @@
 body {
-    font-family: "Roboto", "Raleway", "Montserrat", sans-serif;
+    font-family: "Roboto", sans-serif;
 color: #434455;
 background-color: #fff;
 }
@@ -43,7 +43,7 @@ a {
     text-decoration: none;
 }
 
-.contact-info {
+.contact-info a {
         font-size: 16px;
     
         /* line-height: 24px; */
